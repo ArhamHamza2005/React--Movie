@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ArhamHamza2005.github.io/React--Movie",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,9 +40,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC"
+  }
 }
